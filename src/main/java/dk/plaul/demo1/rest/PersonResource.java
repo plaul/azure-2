@@ -35,7 +35,7 @@ public class PersonResource {
 
   @RequestMapping("/server/api-version")
   public String getVersion() {
-    return "{\"version\": 2.0}";
+    return "{\"version\": 3.0}";
   }
 
   // @Value("${features.time-endpoint-enabled}")
