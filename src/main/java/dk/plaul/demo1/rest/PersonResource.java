@@ -33,9 +33,9 @@ public class PersonResource {
     return con;
   }
 
-  @RequestMapping("/server/api-version")
+  @RequestMapping("/test")
   public String getVersion() {
-    return "{\"version\": 4.0}";
+    return "{\"version\": 5.0}";
   }
 
   // @Value("${features.time-endpoint-enabled}")
