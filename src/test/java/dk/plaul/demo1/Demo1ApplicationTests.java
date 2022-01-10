@@ -10,6 +10,7 @@ class Demo1ApplicationTests {
 
   private static final int NUMBER = 5;
 
+
   @Test
   void contextLoads() {
     assertEquals(5, NUMBER);
